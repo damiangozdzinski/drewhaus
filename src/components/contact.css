@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'raleway', sans-serif;
+  }
+.bannerContact {
+    width: 100%;
+    height: 300px;
+    background: url(../images/wood.jpg);
+    z-index: -1;
+}  
+.bannerPlateContact {
+    width: 80%;
+    background: #fff;
+    height: 180px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: 40px;
+    color: #765F52; 
+    line-height: 180px;
+}
+
+.bannerPlateContact p {
+    margin-left: 100px;
+}
+
+.productsPlateContact {
+    width: 100%;
+    min-height: 810px;
+    background: #765F52;
+    display: flex;
+    justify-content: center;
+}
+
+.productsInfoBannerContact {
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    cursor: pointer;
+}
+
+.productsInfoBannerContact p {
+  font-size: 32px;
+  color: #765F52;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contactRow {
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.map {
+    width: 50%;
+    height: 500px;
+}
+
+#mapFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.aboutInfo {
+    width: 50%;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+
+.contactImage {
+    width: 30%;
+    margin-bottom: 30px
+}
+
+.iconsRow {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 1124px) {
+    .bannerContact {
+        height: 350px;
+    }
+    .bannerPlateContact {
+        top: 25%;
+        font-size: 28px;
+    }
+    .bannerPlateContact p {
+        margin-left: 5%;
+    }
+
+    .contactRow
+    {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .map { 
+        width: 80%;
+    }
+
+    .aboutInfo {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .contactImage {
+        width: 50%
+    }
+
+    .productsInfoBannerContact p {
+        font-size: 16px
+    }
+}
